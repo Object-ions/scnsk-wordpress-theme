@@ -1,0 +1,10 @@
+/* Block editor: make writing look like the published article. */
+.editor-styles-wrapper { background: #FAF7F0; color: #1E3A2F; font-family: "Archivo", system-ui, sans-serif; font-size: 18px; line-height: 1.65; }
+.editor-styles-wrapper .wp-block { max-width: 68ch; }
+.editor-styles-wrapper .wp-block[data-align="wide"] { max-width: 1200px; }
+.editor-styles-wrapper .editor-post-title__input, .editor-styles-wrapper h1, .editor-styles-wrapper h2, .editor-styles-wrapper h3 { font-family: "Archivo Expanded", "Archivo", system-ui, sans-serif; }
+.editor-styles-wrapper .editor-post-title__input { font-size: 48px; line-height: 1; font-weight: 800; letter-spacing: -.015em; }
+.editor-styles-wrapper h2 { font-size: 30px; line-height: 1.1; font-weight: 800; letter-spacing: -.01em; }
+.editor-styles-wrapper h3 { font-size: 21px; line-height: 1.2; font-weight: 700; }
+.editor-styles-wrapper .wp-block-separator { border: 0; height: 2px; width: 64px; background: #1E3A2F; margin-left: 0; }
+.editor-styles-wrapper .wp-block-quote { padding: 24px; background: #DDE5D4; border: 0; border-radius: 24px 24px 24px 0; }

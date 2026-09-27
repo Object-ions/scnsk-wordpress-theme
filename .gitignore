@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Brand kit media that the website does not ship.
+# The theme copies only what it uses into scnsk-theme/assets/ (fonts, wordmark, favicon, bloom, stamp).
+SCNSK-brand-board.png
+SCNSK-brand-kit/SCNSK-brand-board.png
+SCNSK-brand-kit/png/
+SCNSK-brand-kit/svg/
+SCNSK-brand-kit/fonts/
+
+# Generated preview pages (rebuild with: node preview/build.js)
+preview/*.html
+
+# Packaged theme zips
+*.zip

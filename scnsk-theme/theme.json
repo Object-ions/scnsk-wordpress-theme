@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": false,
+    "color": {
+      "custom": false,
+      "customGradient": false,
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "gradients": [],
+      "palette": [
+        { "slug": "forest", "color": "#1E3A2F", "name": "Forest" },
+        { "slug": "moss", "color": "#4E6B4F", "name": "Moss" },
+        { "slug": "sage", "color": "#A9BCA0", "name": "Sage" },
+        { "slug": "mist", "color": "#DDE5D4", "name": "Mist" },
+        { "slug": "oat", "color": "#F1ECE0", "name": "Oat" },
+        { "slug": "paper", "color": "#FAF7F0", "name": "Paper" },
+        { "slug": "clay", "color": "#A94D2C", "name": "Clay" }
+      ]
+    },
+    "typography": {
+      "customFontSize": false,
+      "dropCap": false,
+      "fontFamilies": [
+        { "slug": "sans", "name": "Archivo", "fontFamily": "\"Archivo\", system-ui, sans-serif" },
+        { "slug": "display", "name": "Archivo Expanded", "fontFamily": "\"Archivo Expanded\", \"Archivo\", system-ui, sans-serif" }
+      ],
+      "fontSizes": [
+        { "slug": "caption", "size": "13px", "name": "Caption" },
+        { "slug": "small", "size": "15px", "name": "Small" },
+        { "slug": "body", "size": "18px", "name": "Body" },
+        { "slug": "lead", "size": "21px", "name": "Lead" },
+        { "slug": "headline", "size": "30px", "name": "Headline" },
+        { "slug": "display", "size": "48px", "name": "Display" }
+      ]
+    },
+    "layout": {
+      "contentSize": "68ch",
+      "wideSize": "1200px"
+    },
+    "spacing": {
+      "units": [ "px", "rem", "%" ]
+    }
+  },
+  "styles": {
+    "color": { "background": "#FAF7F0", "text": "#1E3A2F" },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--sans)", "fontSize": "18px", "lineHeight": "1.65" },
+    "elements": {
+      "link": { "color": { "text": "#1E3A2F" } },
+      "heading": { "typography": { "fontFamily": "var(--wp--preset--font-family--display)" } }
+    }
+  }
+}
