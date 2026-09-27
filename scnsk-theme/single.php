@@ -107,7 +107,7 @@ while ( have_posts() ) :
 	}
 	if ( $related->have_posts() ) :
 		?>
-		<section class="band band-oat" style="margin-top:96px">
+		<section class="band band-oat">
 			<div class="wrap">
 				<div class="section-head">
 					<h2 class="t-headline"><?php esc_html_e( 'Keep reading', 'scnsk' ); ?></h2>

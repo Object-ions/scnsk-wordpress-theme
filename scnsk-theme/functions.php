@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'SCNSK_VERSION', '1.0.1' );
+define( 'SCNSK_VERSION', '1.0.2' );
 
 require get_template_directory() . '/inc/template-tags.php';
 
