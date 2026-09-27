@@ -12,7 +12,7 @@ while ( have_posts() ) :
 	?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="page-head">
-			<div class="wrap">
+			<div class="article-col">
 				<h1 class="t-display-l"><?php the_title(); ?></h1>
 			</div>
 		</header>
@@ -23,7 +23,7 @@ while ( have_posts() ) :
 			</figure>
 		<?php endif; ?>
 
-		<div class="wrap">
+		<div class="article-col">
 			<div class="prose entry-content">
 				<?php the_content(); ?>
 			</div>

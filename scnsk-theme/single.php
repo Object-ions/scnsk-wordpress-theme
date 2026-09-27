@@ -12,7 +12,7 @@ while ( have_posts() ) :
 	?>
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<header class="article-head">
-			<div class="wrap">
+			<div class="article-col">
 				<?php scnsk_category_tags( null, 3 ); ?>
 				<h1 class="t-display-l"><?php the_title(); ?></h1>
 				<?php scnsk_byline(); ?>
@@ -25,7 +25,7 @@ while ( have_posts() ) :
 			</figure>
 		<?php endif; ?>
 
-		<div class="wrap">
+		<div class="article-col">
 			<div class="prose entry-content">
 				<?php
 				the_content();
