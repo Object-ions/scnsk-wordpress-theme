@@ -92,8 +92,11 @@ function scnsk_wordmark( $ink = 'color' ) {
 /**
  * Fallback menu: the site's pages, when no menu is assigned yet.
  */
-function scnsk_menu_fallback() {
+function scnsk_menu_fallback( $args = array() ) {
 	echo '<ul>';
-	wp_list_pages( array( 'title_li' => '', 'depth' => 1 ) );
+	wp_list_pages( array( 'title_li' => '', 'depth' => 1, 'exclude' => get_option( 'page_on_front' ) ) );
+	if ( ! empty( $args['theme_location'] ) && 'primary' === $args['theme_location'] ) {
+		echo '<li class="menu-item-search">' . get_search_form( array( 'echo' => false ) ) . '</li>';
+	}
 	echo '</ul>';
 }
