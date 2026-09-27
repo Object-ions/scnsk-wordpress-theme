@@ -30,7 +30,7 @@
 
 		<div class="footer-bottom">
 			<span>© <?php echo esc_html( gmdate( 'Y' ) ); ?> SCNSK · <?php esc_html_e( 'Skincare & Skin Talk', 'scnsk' ); ?></span>
-			<span><?php esc_html_e( 'Skincare Junkie · SCNSK', 'scnsk' ); ?></span>
+			<span><?php esc_html_e( 'Design & development by', 'scnsk' ); ?> <a href="https://switchcasestudio.com" rel="noopener" target="_blank">Switch Case Studio</a></span>
 		</div>
 	</div>
 </footer>
